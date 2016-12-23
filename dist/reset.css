@@ -47,6 +47,7 @@ button,
 [type='reset'],
 [type='submit'] {
   -webkit-appearance: button;
+  -moz-appearance: button;
   appearance: button;
   background-color: transparent;
   font-family: inherit;
@@ -74,6 +75,7 @@ textarea,
 
 [type='search'] {
   -webkit-appearance: textfield;
+  -moz-appearance: textfield;
   appearance: textfield; }
 
 textarea {
@@ -87,6 +89,7 @@ label,
 select,
 textarea,
 [tabindex] {
+  -ms-touch-action: manipulation;
   touch-action: manipulation; }
 
 [type='search'] {
